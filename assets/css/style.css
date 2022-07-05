@@ -1,0 +1,23 @@
+@font-face{
+   src:url(../fonts/google-font/Poppins-Bold.ttf);
+   font-family: Poppins-Bold;
+}
+@font-face{
+   src:url(../fonts/google-font/Roboto-Medium.ttf);
+   font-family: Roboto-Medium;
+}
+@font-face{
+   src:url(../fonts/google-font/BebasNeue-Regular.ttf);
+   font-family: BebasNeue-Regular;
+}
+@font-face{
+   src:url(../fonts/google-font/Cookie-Regular.ttf);
+   font-family: Cookie-Regular;
+}
+
+
+
+*{
+   margin: 0px;
+   padding: 0px;
+}
