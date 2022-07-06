@@ -136,11 +136,16 @@ button:hover{
    cursor: pointer;
    border: 2px solid rgba(128, 128, 128, 0.19);
 }
+.donation .donat-amount2{
+   background-color: #ef868632;
+   border: 2px solid #FF5959;
+}
 .donation .amount:hover{
    background-color: #ef868632;
    border: 2px solid #FF5959;
    
 }
+
 .donation .amount h3{
    font-family: Poppins-Bold;
    font-size: 22px;
