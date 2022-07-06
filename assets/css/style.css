@@ -28,7 +28,7 @@ a{
 }
 .container{
    width: 90%;
-   /* border: 1px solid red; */
+   border: 1px solid red;
    margin: 0px auto;
 }
 h3{
@@ -223,6 +223,68 @@ button:hover{
 }
 
 /* -- --------------- END DONATION PLAN PART -----------------*/
+
+/* ------------------ START UPDATE PLAN PART ----------------- --> */
+#update{
+   margin-bottom: 50px;
+}
+.update-mail-box{
+   background-color: #f3d5b0b9;
+   width: 50%;
+   margin: 0px auto;
+   padding: 50px 40px;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   border-radius: 10px;
+   
+}
+.content-update{
+   display: inline-block;
+}
+.update-mail-box input{
+   padding: 9px 10px;
+   width: 300px;
+   border-radius: 5px 0px 0px 5px;
+   border: none;
+   background-color: aliceblue;
+   
+   float: left;
+}
+.update-mail-box::after{
+   content: '';
+   display: block;
+   clear: both;
+}
+.subscribe{
+   padding: 7px 25px;
+   background-color: #FF5959;
+   border: 1px solid #FF5959;
+   color: white;
+   font-size: 20px;
+   border-radius: 0px 5px 5px 0px;
+
+   float: left;
+}
+
+
+/* ------------------ END UPDATE PLAN PART ----------------- --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ------------------ START FOOTER PART ----------------- */
