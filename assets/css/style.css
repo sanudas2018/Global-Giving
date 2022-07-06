@@ -23,10 +23,19 @@ body{
    margin: 0px;
    padding: 0px;
 }
+a{
+   text-decoration: none;
+}
 .container{
    width: 90%;
-   border: 1px solid red;
+   /* border: 1px solid red; */
    margin: 0px auto;
+}
+h3{
+   font-family: Poppins-Bold;
+}
+p{
+   font-family:  Arial, Helvetica, sans-serif;
 }
 
 /* ------------------ START HEADER PART ----------------- */
@@ -164,6 +173,53 @@ button:hover{
 }
 
 /* ------------------ END DONATION AMOUNT PART ----------------- */
+
+/* -- --------------- START DONATION PLAN PART -----------------*/
+#donat-plan{
+   margin-bottom: 50px;
+}
+.donation-plan{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.donat-box{
+   width: 30.33%;
+   height: 200px;
+   
+   padding: 40px 16px;
+   border-radius: 10px;
+   box-shadow: rgb(0 0 0 / 15%) 0px 9px 4px, rgb(0 0 0 / 5%) 0px 5px 41px;
+}
+
+.donat-box h3{
+   margin: 20px 0px;
+}
+.donat-box p{
+   text-align: left;
+   line-height: 25px;
+   color: rgb(62, 57, 57);
+}
+.donat-box img{
+   width: 50px;
+   height: 50px;
+}
+.food{
+   background-color: #c8eaefc0;
+   
+}
+.blood{
+   background-color: #f3d1d1;
+}
+.shelter{
+   background-color: rgba(162, 243, 162, 0.693);
+}
+
+/* -- --------------- END DONATION PLAN PART -----------------*/
+
+
 /* ------------------ START FOOTER PART ----------------- */
 footer{
    width: 100%;
@@ -195,7 +251,3 @@ footer{
 }
 
 /* ------------------ END FOOTER PART ----------------- */
-
-
-
-
