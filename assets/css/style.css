@@ -28,11 +28,12 @@ a{
 }
 .container{
    width: 90%;
-   border: 1px solid red;
    margin: 0px auto;
 }
+h2,
 h3{
    font-family: Poppins-Bold;
+   color: rgb(8, 17, 64);
 }
 p{
    font-family:  Arial, Helvetica, sans-serif;
@@ -45,10 +46,12 @@ header{
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
+   background-attachment: fixed;
    
    width: 100%;
-   height: 540px;
+   height: 600px;
    position: relative;
+   box-shadow: rgba(0, 0, 0, 0.205) 0px 10px 50px;
 }
 .content{
    position: absolute;
@@ -67,6 +70,7 @@ header{
    width: 97%;
    display: inline-block;
 }
+
 .content p{
    color: rgb(190, 187, 187);
    font-weight: 300;
@@ -76,6 +80,7 @@ header{
    margin-top: 30px;
    margin-bottom: 30px;
 }
+
 button{
    display: block;
    padding: 10px 30px;
@@ -97,24 +102,31 @@ button:hover{
 /* ------------------ START DONATION AMOUNT PART ----------------- */
 
 #donate_today{
-   margin: 50px 0px;
+   margin: 80px 0px;
 }
 .today{
    width: 50%;
    margin: 0px auto;
 }
 .today h2{
-   color: rgb(29, 27, 27);
    font-family: Poppins-Bold;
    text-align: center;
    font-size: 30px;
+}
+.today hr{
+   width: 20%;
+   height: 1px;
+   margin: 16px auto;
+   background-color: rgb(11, 11, 80);
 }
 .today p{
    color: rgba(69, 67, 67, 0.866);
    font-family:  Roboto-Medium;
    text-align: center;
-   margin: 20px 0px 30px 0px;
    font-size: 15px;
+   width: 80%;
+   line-height: 30px;
+   margin: 25px auto;
 }
 /* ................ */
 .donation{
@@ -181,7 +193,7 @@ button:hover{
 
 /* -- --------------- START DONATION PLAN PART -----------------*/
 #donat-plan{
-   margin-bottom: 50px;
+   margin-bottom: 80px;
 }
 .donation-plan{
    display: flex;
@@ -223,10 +235,88 @@ button:hover{
 }
 
 /* -- --------------- END DONATION PLAN PART -----------------*/
+/* -- --------------- START DISASTER RECOVERY PART ----------- */
+#recovery{
+   margin-bottom: 80px;
+   
+}
+.disaster-recovery{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.disater{
+   width: 40%;
+}
+.disater h2{
+   text-align: center;
+   font-size: 30px;
+}
+.disater hr{
+   width: 20%;
+   height: 1px;
+   margin: 16px auto;
+   background-color: rgb(11, 11, 80);
+}
+.disater p{
+   color: rgb(52, 46, 46);
+   width: 80%;
+   text-align: center;
+   margin:40px auto;
+   line-height: 30px;
+} 
+.disater-map{
+   width: 60%;
+}
+.disater-map img{
+   background-size: cover;
+   width: 100%;
+}
+
+
+/* -- --------------- END DISASTER RECOVERY PART ----------- */
+
+/* -- --------------- START DONATION MESSAGES PART ----------- */
+#messages{
+   margin-bottom: 80px;
+}
+.disaster-message{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.message-vedio{
+   width: 50%;
+}
+.message-box{
+   width: 50%;
+}
+.message-box h2{
+   text-align: center;
+   font-size: 30px;
+   
+}
+.message-box hr{
+   width: 20%;
+   height: 1px;
+   margin: 16px auto;
+   background-color: rgb(11, 11, 80);
+}
+.message-box p{
+   color: rgb(52, 46, 46);
+   width: 80%;
+   text-align: center;
+   margin:30px auto;
+   line-height: 30px;
+} 
+
+/* -- --------------- END DONATION MESSAGES PARTS ----------- */
 
 /* ------------------ START UPDATE PLAN PART ----------------- --> */
 #update{
-   margin-bottom: 50px;
+   margin-bottom: 80px;
 }
 .update-mail-box{
    background-color: #f3d5b0b9;
@@ -270,10 +360,6 @@ button:hover{
 
 
 /* ------------------ END UPDATE PLAN PART ----------------- --> */
-
-
-
-
 
 
 
