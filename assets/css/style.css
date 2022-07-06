@@ -357,8 +357,12 @@ button:hover{
    color: white;
    font-size: 20px;
    border-radius: 0px 5px 5px 0px;
-
+   cursor: pointer;
    float: left;
+   transition: 0.5s;
+}
+.subscribe:hover{
+   background-color: #d44b4bf3;
 }
 
 
