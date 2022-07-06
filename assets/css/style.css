@@ -185,10 +185,6 @@ button:hover{
     border-bottom: 2px solid rgba(102, 99, 99, 0.255);
 }
 
-.donation-field input:{
-   border: none;
-}
-
 /* ------------------ END DONATION AMOUNT PART ----------------- */
 
 /* -- --------------- START DONATION PLAN PART -----------------*/
